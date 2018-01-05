@@ -6,17 +6,26 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	overflow: hidden;
 }
 
 main {
-	margin: 25% auto;
-	width: 500px;
+	height: 100%;
+	height: 100vh;
 	text-align: center;
 }
 
-h1 {
-	font-size: 4em;
+.title {
+	font-size: 5em;
 	font-family: "Courier New", Courier, monospace;
 	color: black;
 	text-shadow: 2px 2px;
+}
+
+main .aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
 }
