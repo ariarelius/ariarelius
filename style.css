@@ -15,17 +15,22 @@ main {
 	text-align: center;
 }
 
-.title {
-	font-size: 5em;
-	font-family: "Courier New", Courier, monospace;
-	color: black;
-	text-shadow: 2px 2px;
-}
-
 main .aligner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 	height: 100%;
+}
+
+/* not used, image is title now
+.title {
+	font-size: 5em;
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	text-shadow: 2px 2px;
+} */
+
+.titleimage {
+	padding-bottom: 4rem; /* try to make it more "human" centered, push it up a bit */
 }
