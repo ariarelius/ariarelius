@@ -32,5 +32,21 @@ main .aligner {
 } */
 
 .titleimage {
+	width: 60%;
+	max-width: 60%;
 	padding-bottom: 4rem; /* try to make it more "human" centered, push it up a bit */
+}
+
+@media screen and (max-width: 800px) {
+	.titleimage {
+		width: 80%;
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.titleimage {
+		width: 100%;
+		max-width: 100%;
+	}
 }
