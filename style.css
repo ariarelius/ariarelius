@@ -1,7 +1,10 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
+	color: white;
 	background-color: #ff442a;
+
+	font-family: impact, sans-serif;
 }
 
 a {
@@ -23,22 +26,32 @@ main .view {
 	margin: 0 auto;
 	height: 100%;
 	width: 60%;
-	max-width: 60%;
 }
 
 main .info-view {
 	justify-content: flex-start;
 	flex-direction: row;
+
+	width: 75%;
 }
 
 .general-image {
+	margin: 0 auto;
+	margin-top: 15%;
 	height: 100%;
-	max-width: 50%;
+	width: 46%;
 }
 
 .general-text {
+	margin: 0 auto;
+	margin-top: 22%;
+	padding: 0.5%;
 	height: 100%;
-	max-width: 50%;
+	width: 46%;
+
+	text-align: left;
+	font-size: 1.2em;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .general-nav {
@@ -48,7 +61,6 @@ main .info-view {
 
 .frontpage-title, main nav {
 	width: 75%;
-	max-width: 75%;
 }
 
 .frontpage-title {
@@ -113,22 +125,18 @@ main .shop {
 @media screen and (max-width: 800px) {
 	main .view {
 		width: 80%;
-		max-width: 80%;
 	}
 	.frontpage-title, main nav {
 		width: 90%;
-		max-width: 90%;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	main .view {
 		width: 100%;
-		max-width: 100%;
 	}
 	.frontpage-title, main nav {
 		width: 100%;
-		max-width: 100%;
 	}
 	.frontpage-nav { margin-top: -1.6rem; }
 	main nav a { font-size: 1.7rem; }
