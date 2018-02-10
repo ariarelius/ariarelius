@@ -43,7 +43,7 @@ main .info-view {
 main .listen-view {
 	justify-content: flex-start;
 
-	padding-top: 5%;
+	padding-top: 3%;
 	padding-bottom: 5%;
 
 	height: 1000px; /* ugly fix, height did not seem to come automatically with increasing the iframes heights */
@@ -54,15 +54,15 @@ main .listen-view > * {
 }
 
 main .shop-view {
-	display: default;
+	justify-content: flex-start;
 
-	margin-top: 5%;
-	height: 40%;
+	height: 350px; /* ugly magic number, encompasses the bandcamp button/embed */
+	margin-top: 7%;
 	font-family: 'PT Sans', sans-serif;
 }
 
 main .shop-view > * {
-	margin: 2% 2%;
+	margin: 6% 2% 4% 2%;
 }
 
 .bandcamp-wont {
@@ -210,6 +210,7 @@ main .shop-image {
 		height: 330px;
 	}
 	.bandcamp-wont { width: 100%; }
+	.purchase-button { padding: 20px 40px; }
 }
 
 @media screen and (max-width: 600px) {
