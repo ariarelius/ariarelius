@@ -4,7 +4,7 @@ body {
 	color: white;
 	background-color: #ff442a;
 
-	font-family: impact, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -58,7 +58,6 @@ main .shop-view {
 
 	height: 350px; /* ugly magic number, encompasses the bandcamp button/embed */
 	margin-top: 7%;
-	font-family: 'PT Sans', sans-serif;
 }
 
 main .shop-view > * {
@@ -114,7 +113,6 @@ main .shop-view > * {
 
 	text-align: left;
 	font-size: 1.2em;
-	font-family: 'PT Sans', sans-serif;
 }
 
 .general-nav {
@@ -133,6 +131,8 @@ main .shop-view > * {
 .frontpage-nav {
 	margin-top: -1.9rem;
 }
+
+main nav { font-family: impact, sans-serif; }
 
 main nav a {
 	color: white;
@@ -242,14 +242,21 @@ main .shop-image {
 	main nav a { font-size: 1.7rem; }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 	main nav a { font-size: 1.5rem; }
 }
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
 	main nav a { font-size: 1.3rem; }
 }
-
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 380px) {
 	main nav a { font-size: 1.2rem; }
+}
+@media screen and (max-width: 340px) {
+	main nav a { font-size: 1.1rem; }
+}
+@media screen and (max-width: 320px) {
+	main nav a { font-size: 1.0rem; }
+}
+@media screen and (max-width: 300px) {
+	main nav a { font-size: 0.9rem; }
 }
