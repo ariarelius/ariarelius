@@ -56,13 +56,18 @@ main .listen-view > * {
 main .shop-view {
 	display: default;
 
-	margin-top: 10%;
+	margin-top: 5%;
 	height: 40%;
 	font-family: 'PT Sans', sans-serif;
 }
 
 main .shop-view > * {
 	margin: 2% 2%;
+}
+
+.bandcamp-wont {
+	width: 700px; /* because if seemed to be left aligned when width of container was longer than 700px
+	                 we must set a fixed width and use media queries */
 }
 
 .general-image {
@@ -199,6 +204,7 @@ main .shop-image {
 		width: 100%;
 		height: 330px;
 	}
+	.bandcamp-wont { width: 100%; }
 }
 
 @media screen and (max-width: 600px) {
