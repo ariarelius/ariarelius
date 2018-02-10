@@ -198,9 +198,24 @@ main .shop-image {
 	overflow: hidden;
 }
 
+@media screen and (max-width: 1000px) {
+	main .info-view { 
+		flex-direction: column;
+		width: 90%;
+		height: 1500px; /* yes yes maybe I'm just bad at height. Or this isn't so ugly? Who knows */
+	}
+	main .general-image, main .general-text {
+		margin: 2% 0;
+		width: 60%;
+	}
+}
+
 @media screen and (max-width: 800px) {
-	main .view {
+	main .view, main .general-image, main .general-text {
 		width: 80%;
+	}
+	main .info-view {
+		width: 100%;
 	}
 	.frontpage-title, main nav {
 		width: 90%;
@@ -214,9 +229,12 @@ main .shop-image {
 }
 
 @media screen and (max-width: 600px) {
-	main .view {
+	main .view, main .general-image, main .general-text {
 		width: 100%;
 	}
+	main .info-image { margin: 0; }
+	main .info-view { padding-top: 5%; }
+	.general-text { padding: 3%; }
 	.frontpage-title, main nav {
 		width: 100%;
 	}
