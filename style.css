@@ -61,7 +61,7 @@ main .shop-view {
 }
 
 main .shop-view > * {
-	margin: 2em 2% 0 2%;
+	margin: 1em 2% 0 2%;
 }
 
 .bandcamp-wont {
@@ -88,15 +88,16 @@ main .shop-view > * {
 
 .purchase-button {
 	background-color: #ff7258;
-    border: none;
-    color: white;
-    padding: 25px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 25px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 300px;
 }
 
 .purchase-button:hover {
