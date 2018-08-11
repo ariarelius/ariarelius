@@ -56,7 +56,7 @@ main .listen-view > * {
 main .shop-view {
 	justify-content: flex-start;
 
-	height: 350px; /* ugly magic number, encompasses the bandcamp button/embed */
+	height: 700px; /* ugly magic number, encompasses the bandcamp button/embed */
 	margin-top: 7%;
 }
 
