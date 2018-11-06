@@ -46,7 +46,7 @@ main .listen-view {
 	padding-top: 3%;
 	padding-bottom: 5%;
 
-	height: 1000px; /* ugly fix, height did not seem to come automatically with increasing the iframes heights */
+	height: 1450px;  /* ugly fix, height did not seem to come automatically with increasing the iframes heights */
 }
 
 main .listen-view > * {
