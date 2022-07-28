@@ -16,6 +16,10 @@ a:hover {
 	color: #ff7258;
 }
 
+p {
+	margin: 1em 0;
+}
+
 main {
 	height: 100%;
 	height: 100vh;
@@ -164,11 +168,6 @@ main nav a:hover {
 	text-align: center;
 }
 
-.spotify-follow-button { 
-	text-align: center; 
-	margin-top: 2%;
-}
-
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -184,7 +183,7 @@ main nav a:hover {
 }
 
 main .frontpage-image {
-	background: url(img/cover.jpg) no-repeat center center; 
+	background: url(img/cover.jpg) no-repeat center center;
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -193,7 +192,7 @@ main .frontpage-image {
 }
 
 main .info-image {
-	background: url(img/info2.jpg) no-repeat center center; 
+	background: url(img/info2.jpg) no-repeat center center;
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -202,7 +201,7 @@ main .info-image {
 }
 
 main .shop-image {
-	background: url(img/shop.jpg) no-repeat center center; 
+	background: url(img/shop.jpg) no-repeat center center;
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
 	-o-background-size: auto 100%;
@@ -211,7 +210,7 @@ main .shop-image {
 }
 
 @media screen and (max-width: 1000px) {
-	main .info-view { 
+	main .info-view {
 		flex-direction: column;
 		width: 90%;
 		height: 1500px; /* yes yes maybe I'm just bad at height. Or this isn't so ugly? Who knows */
@@ -233,7 +232,7 @@ main .shop-image {
 		width: 100%;
 	}
 	main .info-view { padding-top: 5%; }
-	main .info-image { 
+	main .info-image {
 		margin: 0;
 		width: 100%;
 	}
